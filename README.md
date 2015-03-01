@@ -1,9 +1,7 @@
 # Übersicht OmniFocus Task Widget
-OmniFocus Flagged Task Widget for Übersicht / Ubersicht
+OmniFocus Flagged Task Widget - Made for [Übersicht](http://tracesof.net/uebersicht/)
 
-Made for [Übersicht](http://tracesof.net/uebersicht/)
-
-Shows the active list of flagged tasks from OmniFocus.
+A common workflow for OF users is to flag tasks they are working on `today`. See current flagged items with a quick snapshot of the project, context and note for each task.
 
 ### Screenshot
 ![Screenshot]
