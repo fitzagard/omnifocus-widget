@@ -9,6 +9,7 @@ Shows the active list of flagged tasks from OmniFocus
 ![Screenshot]
 (https://raw.githubusercontent.com/fitzagard/omnifocus-widget/master/omniwidget.png)
 
-## Warning
+## Requirements
 
-The task widget depends on the JavaScript for Automation which is new in Yosemite.
+- Have [OmniFocus](https://www.omnigroup.com/omnifocus) installed.
+- OS X Yosemite: The task widget depends on the JavaScript for Automation which is new in Yosemite. Sorry, I never bothered to learn AppleScript
