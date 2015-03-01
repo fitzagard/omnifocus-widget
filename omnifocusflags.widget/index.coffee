@@ -57,6 +57,12 @@ style: """
        width: 10px
        border-top-style: solid
        border-top: thick solid #fff;
+
+    .of-empty
+    	width: auto
+    	color: #fff
+    	text-align: center
+    	margin-top: 0
 """
 
 render: (_) -> """
@@ -84,6 +90,8 @@ _render: () ->
 						@_note(task) + 
 				   	'</li>'
 		@taskList += '</ul>'
+	else
+		@taskList = '<h4 class="of-empty">No Flagged Tasks</h4>'
 
 _project: (task) =>
 	return if (task.project and task.project != 'OmniFocus') then '<span class="task-project">' + task.project + '</span>' else ''
