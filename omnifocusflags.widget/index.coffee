@@ -89,7 +89,7 @@ _project: (task) =>
 	return if (task.project and task.project != 'OmniFocus') then '<span class="task-project">' + task.project + '</span>' else ''
 
 _context: (task) =>
-	return if task.context then '<span class="task-context"> : ' + task.context + '</span>' else ''
+	return if task.context then '<span class="task-context"> @ ' + task.context + '</span>' else ''
 
 _note: (task) =>
 	return if task.note then '<div class="task-note">' + String(task.note) + '</div>' else ''
