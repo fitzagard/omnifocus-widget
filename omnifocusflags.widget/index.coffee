@@ -63,6 +63,10 @@ style: """
     	color: #fff
     	text-align: center
     	margin-top: 0
+			
+  a, a:link, a:visited
+	  color: #fff
+	  text-decoration: none
 """
 
 render: (_) -> """
@@ -85,7 +89,7 @@ _render: () ->
 	if @ofObj.tasks.length
 		@ofObj.tasks.forEach (task) =>
 			@taskList +=  '<li class="task">' + 
-						task.name +
+						'<a href="omnifocus:///task/' + task.id + '">' + task.name + '</a>' +
 						'<div>' + @_project(task) + @_context(task) + '</div>' +
 						@_note(task) + 
 				   	'</li>'
